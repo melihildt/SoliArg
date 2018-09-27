@@ -1,8 +1,13 @@
-.wrapper.style2, .wrapper.style3 {
+.wrapper.style2,
+.wrapper.style3 {
     background-image: linear-gradient(-135deg, #F1D4A1 0%, #F9B64D 100%);
 }
 
-input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
     background-color: #F9B64D;
     background-image: none;
 }
@@ -13,19 +18,59 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
     }
 }
 
-@media screen and (max-width: 840px){
-#titleBar {
-    background-color: #ffffff;
-    box-shadow: 0 4px 0 0 #F9B64D;
-    background-image: none;
-}
-#titleBar .title {
-    color: #333;
-}
+@media screen and (max-width: 840px) {
+    #titleBar {
+        background-color: #ffffff;
+        box-shadow: 0 4px 0 0 #F9B64D;
+        background-image: none;
+    }
+
+    #titleBar .title {
+        color: #333;
+    }
 }
 
 @media screen and (max-width: 840px) {
-#titleBar .toggle:before {
-    color: #333;
+    #titleBar .toggle:before {
+        color: #333;
+    }
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.borde {
+    border-radius: 8px;
+}
+
+body {
+    background-image: none;
+}
+
+#footer {
+    background-image: linear-gradient(-135deg, #F1D4A1 0%, #F9B64D 100%);
+
+    .icons a {
+        color: #ffffff;
+    }
+}
+
+#footer .icons a {
+    color: white;
+    s
+}
+
+
+@media screen and (max-width: 736px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
 }
