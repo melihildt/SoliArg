@@ -23,3 +23,9 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
     color: #333;
 }
 }
+
+@media screen and (max-width: 840px) {
+#titleBar .toggle:before {
+    color: #333;
+}
+}
