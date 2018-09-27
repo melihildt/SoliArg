@@ -74,3 +74,8 @@ body {
 #footer .copyright {
     color: white;
 }
+
+a {
+    color: rgb(211, 144, 35);
+    font-weight: 600;
+}
