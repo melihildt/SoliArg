@@ -1,0 +1,25 @@
+.wrapper.style2, .wrapper.style3 {
+    background-image: linear-gradient(-135deg, #F1D4A1 0%, #F9B64D 100%);
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+    background-color: #F9B64D;
+    background-image: none;
+}
+
+@media screen and (max-width: 736px) {
+    h2 {
+        font-size: 2.40em;
+    }
+}
+
+@media screen and (max-width: 840px){
+#titleBar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 0 0 #F9B64D;
+    background-image: none;
+}
+#titleBar .title {
+    color: #333;
+}
+}
